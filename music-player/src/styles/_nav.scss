@@ -1,0 +1,32 @@
+nav{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    button{
+        background:transparent;
+        border:none;
+        color:rgb(126, 203, 255);
+        cursor: pointer;
+        border: 2px solid rgb(126, 203, 255);
+        border-radius: 45%;
+        padding:0.5rem;
+        transition: all 0.3s ease;
+        &:hover{
+            background: rgb(126, 203, 255);
+            color: white;
+        }
+    }
+    .waves{
+        color:rgb(126, 203, 255)
+    }
+}
+@media screen and (max-width:768px)  {
+    nav{
+        button{
+            z-index:10;
+        }
+    }
+    
+}
